@@ -1,0 +1,16 @@
+{
+    "sample_def": [
+        {
+            "gem_group": null,
+            "lanes": null,
+            "sample_names": [
+                "Case9_tumor"
+            ],
+            "sample_indices": [
+                "any"
+            ],
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "read_path": "/yshare2/home/tissei/10X_dir/data/Case9_tumor"
+        }
+    ]
+}

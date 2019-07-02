@@ -1,0 +1,74 @@
+{
+    "stackvars_flag": "disable", 
+    "name": "ID.tmp_Case9_normal.SC_RNA_COUNTER_CS.SC_RNA_COUNTER.CHEMISTRY_DETECTOR.DETECT_CHEMISTRY.fork0.chnk0", 
+    "python": {
+        "binpath": "/yshare2/home/tissei/10X_dir/tools/cellranger-3.0.2/miniconda-cr-cs/4.3.21-miniconda-cr-cs-c10/bin/python", 
+        "version": "2.7.14 |Anaconda, Inc.| (default, Mar 27 2018, 17:29:31) \n[GCC 7.2.0]"
+    }, 
+    "vmemGB": 11, 
+    "monitor_flag": "disable", 
+    "pid": 114116, 
+    "host": "gc033", 
+    "version": {
+        "martian": "'3.0.2-v3.2.0'", 
+        "pipelines": "3.0.2"
+    }, 
+    "threads": 1, 
+    "memGB": 8, 
+    "type": "local", 
+    "invocation": {
+        "args": {
+            "force_cells": null, 
+            "reference_path": "/home/tissei/10X_dir/reference/GRCh38/", 
+            "r2_length": null, 
+            "feature_reference": null, 
+            "recovered_cells": 1000, 
+            "r1_length": null, 
+            "no_secondary_analysis": false, 
+            "sample_id": "tmp_Case9_normal", 
+            "sample_def": [
+                {
+                    "gem_group": null, 
+                    "lanes": null, 
+                    "sample_names": [
+                        "Case9_noraml"
+                    ], 
+                    "sample_indices": [
+                        "any"
+                    ], 
+                    "fastq_mode": "ILMN_BCL2FASTQ", 
+                    "read_path": "/yshare2/home/tissei/10X_dir/data/Case9_normal"
+                }
+            ], 
+            "chemistry": "auto", 
+            "sample_desc": ""
+        }, 
+        "call": "SC_RNA_COUNTER_CS", 
+        "sweepargs": []
+    }, 
+    "profile_mode": "disable", 
+    "sge": {
+        "SGE_STDIN_PATH": "/dev/null", 
+        "SGE_TASK_ID": "undefined", 
+        "SGE_BINARY_PATH": "/home/geadmin/N1GE/bin/lx-amd64", 
+        "SGE_TASK_STEPSIZE": "undefined", 
+        "JOB_ID": "4172273", 
+        "SGE_RERUN_REQUESTED": "0", 
+        "SGE_ACCOUNT": "sge", 
+        "SGE_HGR_mem_req": "75.000G", 
+        "SGE_JOB_SPOOL_DIR": "/var/spool/ge/gc033i/active_jobs/4172273.1", 
+        "SGE_ARCH": "lx-amd64", 
+        "JOB_NAME": "cellranger.sh", 
+        "JOB_SCRIPT": "/var/spool/ge/gc033i/job_scripts/4172273", 
+        "SGE_CELL": "default", 
+        "SGE_TASK_LAST": "undefined", 
+        "SGE_TASK_FIRST": "undefined", 
+        "SGE_CLUSTER_NAME": "p6444", 
+        "SGE_CWD_PATH": "/home/tissei/10X_dir", 
+        "SGE_STDOUT_PATH": "/home/tissei/10X_dir/cellranger.sh.o4172273", 
+        "SGE_RERUN_JOB": "1", 
+        "SGE_ROOT": "/home/geadmin/N1GE", 
+        "SGE_STDERR_PATH": "/home/tissei/10X_dir/cellranger.sh.e4172273"
+    }, 
+    "cwd": "/home/tissei/10X_dir/tmp_Case9_normal/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/CHEMISTRY_DETECTOR/DETECT_CHEMISTRY/fork0/chnk0-ubca51af903/files"
+}

@@ -1,0 +1,151 @@
+{
+    "name": "ID.tmp_Case9_tumor.SC_RNA_COUNTER_CS.EXPAND_SAMPLE_DEF.fork0.chnk0",
+    "pid": 180759,
+    "host": "gc036",
+    "type": "local",
+    "cwd": "/home/tissei/10X_dir/tmp_Case9_tumor/SC_RNA_COUNTER_CS/EXPAND_SAMPLE_DEF/fork0/chnk0-uc1d71af8f5/files",
+    "python": {
+        "binpath": "/yshare2/home/tissei/10X_dir/tools/cellranger-3.0.2/miniconda-cr-cs/4.3.21-miniconda-cr-cs-c10/bin/python",
+        "version": "2.7.14 |Anaconda, Inc.| (default, Mar 27 2018, 17:29:31) \n[GCC 7.2.0]"
+    },
+    "rusage": {
+        "self": {
+            "ru_maxrss": 19100,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 937,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0.001742,
+            "ru_stime": 0.009586,
+            "ru_inblock": 0,
+            "ru_oublock": 40,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0
+        },
+        "children": {
+            "ru_maxrss": 87348,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 48110,
+            "ru_majflt": 22,
+            "ru_nswap": 0,
+            "ru_utime": 0.470824,
+            "ru_stime": 0.60327,
+            "ru_inblock": 1000,
+            "ru_oublock": 32,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0
+        }
+    },
+    "used_bytes": {
+        "rss": 94982144,
+        "shared": 25239552,
+        "vmem": 919035904,
+        "text": 1695744,
+        "stack": 312324096,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 3758,
+                "bytes": 8192
+            },
+            "write": {
+                "sysc": 144,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 1128.765207994743,
+                "bytes": 1638.330547891414
+            },
+            "write": {
+                "sysc": 19.399177630061907,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 54.60891493081665,
+                "bytes": 819.1651484960189
+            },
+            "write": {
+                "sysc": 5.009667799074866,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2019-07-02 15:25:57",
+        "end": "2019-07-02 15:26:07",
+        "duration_seconds": 10.242062229
+    },
+    "threads": 1,
+    "memGB": 1,
+    "vmemGB": 4,
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_RNA_COUNTER_CS",
+        "args": {
+            "chemistry": "auto",
+            "feature_reference": null,
+            "force_cells": null,
+            "no_secondary_analysis": false,
+            "r1_length": null,
+            "r2_length": null,
+            "recovered_cells": 1000,
+            "reference_path": "/home/tissei/10X_dir/reference/GRCh38/",
+            "sample_def": [
+                {
+                    "gem_group": null,
+                    "lanes": null,
+                    "sample_names": [
+                        "Case9_tumor"
+                    ],
+                    "sample_indices": [
+                        "any"
+                    ],
+                    "fastq_mode": "ILMN_BCL2FASTQ",
+                    "read_path": "/yshare2/home/tissei/10X_dir/data/Case9_tumor"
+                }
+            ],
+            "sample_desc": "",
+            "sample_id": "tmp_Case9_tumor"
+        },
+        "sweepargs": []
+    },
+    "version": {
+        "martian": "'3.0.2-v3.2.0'",
+        "pipelines": "3.0.2"
+    },
+    "sge": {
+        "JOB_ID": "4172274",
+        "JOB_NAME": "cellranger.sh",
+        "JOB_SCRIPT": "/var/spool/ge/gc036i/job_scripts/4172274",
+        "SGE_ACCOUNT": "sge",
+        "SGE_ARCH": "lx-amd64",
+        "SGE_BINARY_PATH": "/home/geadmin/N1GE/bin/lx-amd64",
+        "SGE_CELL": "default",
+        "SGE_CLUSTER_NAME": "p6444",
+        "SGE_CWD_PATH": "/home/tissei/10X_dir",
+        "SGE_HGR_mem_req": "75.000G",
+        "SGE_JOB_SPOOL_DIR": "/var/spool/ge/gc036i/active_jobs/4172274.1",
+        "SGE_RERUN_JOB": "1",
+        "SGE_RERUN_REQUESTED": "0",
+        "SGE_ROOT": "/home/geadmin/N1GE",
+        "SGE_STDERR_PATH": "/home/tissei/10X_dir/cellranger.sh.e4172274",
+        "SGE_STDIN_PATH": "/dev/null",
+        "SGE_STDOUT_PATH": "/home/tissei/10X_dir/cellranger.sh.o4172274",
+        "SGE_TASK_FIRST": "undefined",
+        "SGE_TASK_ID": "undefined",
+        "SGE_TASK_LAST": "undefined",
+        "SGE_TASK_STEPSIZE": "undefined"
+    }
+}
