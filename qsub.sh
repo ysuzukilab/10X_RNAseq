@@ -58,7 +58,6 @@ do
 		qsub -l os7 -cwd cellranger.sh -i ${ID}_${file} -r $REF \
         	-f ${FASTQS}/${file} -e $EC
 	else
-		echo "miss"
 		qsub -l os7 -cwd cellranger.sh -i ${ID} -r $REF -f ${FASTQS} -e $EC
 		break
 	fi
