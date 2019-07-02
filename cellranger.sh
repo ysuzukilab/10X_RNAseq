@@ -37,7 +37,7 @@ done
 
 cellranger count --id=${ID} \
 		 --transcriptome=~/10X_dir/reference/${REF}/ \
-		 --fastqs=${FASTQS} --expect-cells=${EC} \
+		 --fastqs=~/10X_dir/${FASTQS} --expect-cells=${EC} \
 		 --localcores=8 --localmem=90
 
 

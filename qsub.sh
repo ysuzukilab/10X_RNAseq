@@ -55,10 +55,9 @@ FILES=($(ls -1 $FASTQS))
 for file in ${FILES[@]}
 do
 	if [ -d "$FASTQS/$file" ];then
-		qsub -l os7 -cwd cellranger.sh -i ${ID}_${file} -r $REF \
-        	-f ${FASTQS}/${file} -e $EC
+		qsub -l os7 -cwd ~/10X_dir/cellranger.sh -i ${ID}_${file} -r ~/10X_dir/reference/$REF -f ~/10X_dir/${FASTQS}/${file} -e $EC
 	else
-		qsub -l os7 -cwd cellranger.sh -i ${ID} -r $REF -f ${FASTQS} -e $EC
+		qsub -l os7 -cwd ~/10X_dir/cellranger.sh -i ${ID} -r ~/10X_dir/reference/$REF -f ~/10X_dir/${FASTQS} -e $EC
 		break
 	fi
 done
