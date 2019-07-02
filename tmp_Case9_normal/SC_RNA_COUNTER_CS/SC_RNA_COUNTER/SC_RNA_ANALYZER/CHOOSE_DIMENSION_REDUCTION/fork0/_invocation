@@ -1,5 +1,0 @@
-@include "_sc_rna_analyzer_stages.mro"
-
-call CHOOSE_DIMENSION_REDUCTION(
-    chemistry_batch_correction = false,
-)
