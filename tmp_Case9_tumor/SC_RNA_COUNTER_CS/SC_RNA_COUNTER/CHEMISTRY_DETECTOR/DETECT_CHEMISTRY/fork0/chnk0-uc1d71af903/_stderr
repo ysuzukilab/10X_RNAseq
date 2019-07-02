@@ -1,2 +1,3 @@
 [stderr]
-2019-07-02T15:26:13 [INFO] - Parsing GTF2019-07-02T15:26:18 [INFO] - Fetching sequences
+2019-07-02T15:26:13 [INFO] - Parsing GTF2019-07-02T15:26:18 [INFO] - Fetching sequences2019-07-02T15:28:09 [INFO] - Done2019-07-02T15:28:10 [INFO] - Sorting 71159164 kmers2019-07-02T15:28:12 [INFO] - Deduping 71159164 kmers2019-07-02T15:28:13 [INFO] - Hashing 68510141 unique kmers2019-07-02T15:28:24 [INFO] - 
+Items: 68510141, Mphf Size: 34251616, Bits/Item: 3.99959642019-07-02T15:28:24 [INFO] - Arranging 68510141 unique kmers
