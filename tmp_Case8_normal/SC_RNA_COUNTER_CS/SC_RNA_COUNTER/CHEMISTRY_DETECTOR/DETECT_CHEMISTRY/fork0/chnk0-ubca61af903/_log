@@ -1,1 +1,16 @@
 2019-07-02 15:26:11 [time] __start__
+2019-07-02 15:29:02 [info] Detected chemistries:
+2019-07-02 15:29:02 [info] (0, u'Case8_noraml'): SC3Pv3
+2019-07-02 15:29:02 [info] 
+Detect Report -- /yshare2/home/tissei/10X_dir/data/Case8_normal (None):
+
+R1 Total Reads:                    10000
+R1 Sense Reads:                        0
+R1 Antisense Reads:                    0
+R2 Total Reads:                    10000
+R2 Sense Reads:                     4174
+R2 Antisense Reads:                  577
+
+This library is likely to be a Single Cell 3' gene expression library (v2 or v3).
+The chemistry version or sequencing configuration is likely Single Cell 3' v3
+2019-07-02 15:29:03 [time] __end__
