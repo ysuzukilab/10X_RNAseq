@@ -27,7 +27,7 @@ gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 wget ftp://ftp.ensembl.org/pub/release-93/gtf/homo_sapiens/Homo_sapiens.GRCh38.93.gtf.gz
 gunzip Homo_sapiens.GRCh38.93.gtf.gz
 
-export PATH=/home/tissei/tmp_10X/tools/cellranger-3.0.2:$PATH
+export PATH=~/10X_dir/tools/cellranger-3.0.2:$PATH
 
 cellranger mkgtf Homo_sapiens.GRCh38.93.gtf Homo_sapiens.GRCh38.93.filtered.gtf \
                  --attribute=gene_biotype:protein_coding \
