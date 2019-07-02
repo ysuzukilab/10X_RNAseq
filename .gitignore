@@ -1,0 +1,4 @@
+*.sh.e*
+*.sh.o*
+reference/
+tools/
