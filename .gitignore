@@ -3,6 +3,6 @@
 reference/
 tools/
 data/
-tmp*
-__*
-
+tmp*/
+__*/
+eofile/
